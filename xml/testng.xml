@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/youth/Desktop/qsheal/com.qsheal/src/test/java/demo/ATest.java">
+
+        <!--<parameter name="para" value="12235"/>-->
+        <classes>
+            <class name="demo.InterfaceTest">
+                <!--<methods><include name="yuepanduan"/></methods>-->
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!-- class-name的值填写为时间创建的监听器的路径 -->
+        <listener class-name="Method.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
