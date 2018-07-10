@@ -11,7 +11,7 @@ public class jdbc {
 
     public void initDb() throws Exception {
         final String URI = "jdbc:mysql://192.168.2.3:3306/fkh_test?user=test&password=111111&useUnicode=true&characterEncoding=UTF-8";
-        final String DRIVER = "com.mysql.jdbc.Driver";
+        final String DRIVER = "com.mysql.cj.jdbc.Driver";
         //1、加载数据库驱动
         Class.forName(DRIVER);
         //2、获取数据库连接
