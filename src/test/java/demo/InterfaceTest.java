@@ -23,7 +23,6 @@ public class InterfaceTest {
 //        String cookie=httpRequest.getTmpcookies(LoginUrl);
 //        return cookie;
 //    }
-@Test
     public void go() throws Exception {
         String LoginUrl="http://192.168.2.3/webgis/login.html?loginAccount=18181915310&loginPasswd=95075dfedfe8f80ac6e45115918fd7f3&randomCode=111&loginType=2";
         String Url="http://192.168.2.3/webgis/vehicleConvene/saveSpecialCar.json?editCar=false&licensePlateNoArea=%E5%B7%9D&licensePlateNoLetter=D&carLicensePlateNo=10000&axleNum=%E4%B8%8D%E9%99%90&carType=%E4%B8%8D%E9%99%90&carLength=%E4%B8%8D%E9%99%90&cargoTonnage=22%E5%90%A8&carBrand=2321321312&siji.driverName=%E6%B5%8B%E8%AF%95%E5%8F%B8%E6%9C%BA&siji.mobileNo=13659595959&siji.driverCarNo=513701199104162310&siji.driverCarApproveDate=2018-06-11&siji.driverCarDate=2018-06-12&licensePlateNo=%E5%B7%9DD-10000";

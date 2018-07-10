@@ -83,7 +83,7 @@ public void MapTestOne(){
          System.out.println();
      }
  }
-   @Test
+ 
  public void MockitoTest(){
      // mock creation
      List mockedList = mock(List.class);
