@@ -5,7 +5,7 @@
 
         <!--<parameter name="para" value="12235"/>-->
         <classes>
-            <class name="demo.InterfaceTest">
+            <class name="Fkh.FkhTmsProces">
                 <!--<methods><include name="yuepanduan"/></methods>-->
             </class>
         </classes>
