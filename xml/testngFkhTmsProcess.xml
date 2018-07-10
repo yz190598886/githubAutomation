@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/youth/Desktop/qsheal/com.qsheal/src/test/java/demo/ATest.java">
+    <test verbose="2" preserve-order="true" >
 
         <!--<parameter name="para" value="12235"/>-->
         <classes>
