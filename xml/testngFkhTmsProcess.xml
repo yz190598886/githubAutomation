@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="FkhTmsProces" >
+    <test verbose="2" preserve-order="true" name="FkhTmsProcess" >
 
         <!--<parameter name="para" value="12235"/>-->
         <classes>
-            <class name="Fkh.FkhTmsProces">
+            <class name="Fkh.FkhTmsProcess">
                 <!--<methods><include name="yuepanduan"/></methods>-->
             </class>
         </classes>
